@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+  <title>Základy programovacieho jazyka Python</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/glyphicons.css" type="text/css" rel="stylesheet">
+
+  <script language="javascript" src="assets/js/api.js"></script>
+  <script>
+    var items = [{"i":0,"identifier":"item_9569","id":9569,"parent_id":0,"seq":1,"title":"Z\u00e1klady programovacieho jazyka Python","href":"content\/sco_1\/page.html","order":1},{"i":1,"identifier":"item_9566","id":9566,"parent_id":0,"seq":2,"title":"1.1 N\u00e1zvy premenn\u00fdch","href":"content\/sco_2\/page.html","order":2},{"i":2,"identifier":"item_9568","id":9568,"parent_id":0,"seq":3,"title":"1.2 Hodnoty Premenn\u00fdch","href":"content\/sco_3\/page.html","order":3},{"i":3,"identifier":"item_9570","id":9570,"parent_id":0,"seq":4,"title":"1.3 Konzola","href":"content\/sco_4\/page.html","order":4},{"i":4,"identifier":"item_9571","id":9571,"parent_id":0,"seq":5,"title":"2.1 Aktualiz\u00e1cia premenn\u00fdch","href":"content\/sco_5\/page.html","order":5},{"i":5,"identifier":"item_9572","id":9572,"parent_id":0,"seq":6,"title":"2.2. V\u00fdrazy","href":"content\/sco_6\/page.html","order":6},{"i":6,"identifier":"item_9573","id":9573,"parent_id":0,"seq":7,"title":"2.3. \u010c\u00edsla","href":"content\/sco_7\/page.html","order":7},{"i":7,"identifier":"item_9575","id":9575,"parent_id":0,"seq":8,"title":"3.1 True a False hodnoty","href":"content\/sco_8\/page.html","order":8},{"i":8,"identifier":"item_9576","id":9576,"parent_id":0,"seq":9,"title":"3.2 Neg\u00e1cia hodn\u00f4t","href":"content\/sco_9\/page.html","order":9},{"i":9,"identifier":"item_9577","id":9577,"parent_id":0,"seq":10,"title":"4.1 Oper\u00e1tor rovn\u00e1 sa","href":"content\/sco_10\/page.html","order":10},{"i":10,"identifier":"item_9578","id":9578,"parent_id":0,"seq":11,"title":"4.2 Oper\u00e1tor nerovn\u00e1 sa","href":"content\/sco_11\/page.html","order":11},{"i":11,"identifier":"item_9579","id":9579,"parent_id":0,"seq":12,"title":"5 Form\u00e1tovanie stringu","href":"content\/sco_12\/page.html","order":12},{"i":12,"identifier":"item_9580","id":9580,"parent_id":0,"seq":13,"title":"6 Test","href":"content\/sco_13\/page.html","order":13}];
+    var items_by_identifier = {"item_9569":{"i":0,"identifier":"item_9569","id":9569,"parent_id":0,"seq":1,"title":"Z\u00e1klady programovacieho jazyka Python","href":"content\/sco_1\/page.html","order":1},"item_9566":{"i":1,"identifier":"item_9566","id":9566,"parent_id":0,"seq":2,"title":"1.1 N\u00e1zvy premenn\u00fdch","href":"content\/sco_2\/page.html","order":2},"item_9568":{"i":2,"identifier":"item_9568","id":9568,"parent_id":0,"seq":3,"title":"1.2 Hodnoty Premenn\u00fdch","href":"content\/sco_3\/page.html","order":3},"item_9570":{"i":3,"identifier":"item_9570","id":9570,"parent_id":0,"seq":4,"title":"1.3 Konzola","href":"content\/sco_4\/page.html","order":4},"item_9571":{"i":4,"identifier":"item_9571","id":9571,"parent_id":0,"seq":5,"title":"2.1 Aktualiz\u00e1cia premenn\u00fdch","href":"content\/sco_5\/page.html","order":5},"item_9572":{"i":5,"identifier":"item_9572","id":9572,"parent_id":0,"seq":6,"title":"2.2. V\u00fdrazy","href":"content\/sco_6\/page.html","order":6},"item_9573":{"i":6,"identifier":"item_9573","id":9573,"parent_id":0,"seq":7,"title":"2.3. \u010c\u00edsla","href":"content\/sco_7\/page.html","order":7},"item_9575":{"i":7,"identifier":"item_9575","id":9575,"parent_id":0,"seq":8,"title":"3.1 True a False hodnoty","href":"content\/sco_8\/page.html","order":8},"item_9576":{"i":8,"identifier":"item_9576","id":9576,"parent_id":0,"seq":9,"title":"3.2 Neg\u00e1cia hodn\u00f4t","href":"content\/sco_9\/page.html","order":9},"item_9577":{"i":9,"identifier":"item_9577","id":9577,"parent_id":0,"seq":10,"title":"4.1 Oper\u00e1tor rovn\u00e1 sa","href":"content\/sco_10\/page.html","order":10},"item_9578":{"i":10,"identifier":"item_9578","id":9578,"parent_id":0,"seq":11,"title":"4.2 Oper\u00e1tor nerovn\u00e1 sa","href":"content\/sco_11\/page.html","order":11},"item_9579":{"i":11,"identifier":"item_9579","id":9579,"parent_id":0,"seq":12,"title":"5 Form\u00e1tovanie stringu","href":"content\/sco_12\/page.html","order":12},"item_9580":{"i":12,"identifier":"item_9580","id":9580,"parent_id":0,"seq":13,"title":"6 Test","href":"content\/sco_13\/page.html","order":13}};
+    var items_by_order = {"1":{"i":0,"identifier":"item_9569","id":9569,"parent_id":0,"seq":1,"title":"Z\u00e1klady programovacieho jazyka Python","href":"content\/sco_1\/page.html","order":1},"2":{"i":1,"identifier":"item_9566","id":9566,"parent_id":0,"seq":2,"title":"1.1 N\u00e1zvy premenn\u00fdch","href":"content\/sco_2\/page.html","order":2},"3":{"i":2,"identifier":"item_9568","id":9568,"parent_id":0,"seq":3,"title":"1.2 Hodnoty Premenn\u00fdch","href":"content\/sco_3\/page.html","order":3},"4":{"i":3,"identifier":"item_9570","id":9570,"parent_id":0,"seq":4,"title":"1.3 Konzola","href":"content\/sco_4\/page.html","order":4},"5":{"i":4,"identifier":"item_9571","id":9571,"parent_id":0,"seq":5,"title":"2.1 Aktualiz\u00e1cia premenn\u00fdch","href":"content\/sco_5\/page.html","order":5},"6":{"i":5,"identifier":"item_9572","id":9572,"parent_id":0,"seq":6,"title":"2.2. V\u00fdrazy","href":"content\/sco_6\/page.html","order":6},"7":{"i":6,"identifier":"item_9573","id":9573,"parent_id":0,"seq":7,"title":"2.3. \u010c\u00edsla","href":"content\/sco_7\/page.html","order":7},"8":{"i":7,"identifier":"item_9575","id":9575,"parent_id":0,"seq":8,"title":"3.1 True a False hodnoty","href":"content\/sco_8\/page.html","order":8},"9":{"i":8,"identifier":"item_9576","id":9576,"parent_id":0,"seq":9,"title":"3.2 Neg\u00e1cia hodn\u00f4t","href":"content\/sco_9\/page.html","order":9},"10":{"i":9,"identifier":"item_9577","id":9577,"parent_id":0,"seq":10,"title":"4.1 Oper\u00e1tor rovn\u00e1 sa","href":"content\/sco_10\/page.html","order":10},"11":{"i":10,"identifier":"item_9578","id":9578,"parent_id":0,"seq":11,"title":"4.2 Oper\u00e1tor nerovn\u00e1 sa","href":"content\/sco_11\/page.html","order":11},"12":{"i":11,"identifier":"item_9579","id":9579,"parent_id":0,"seq":12,"title":"5 Form\u00e1tovanie stringu","href":"content\/sco_12\/page.html","order":12},"13":{"i":12,"identifier":"item_9580","id":9580,"parent_id":0,"seq":13,"title":"6 Test","href":"content\/sco_13\/page.html","order":13}};
+    var first_item_identifier = "item_9569";
+    var current_item_identifier = "item_9569";
+    var current_item_order = 1;
+
+    function isMobileSafari() {
+      return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+    }
+
+    function runSco(identifier) {
+      current_item_identifier = identifier;
+      current_item_order = items_by_identifier[identifier].order;
+      document.getElementById('sco-content').src = items_by_identifier[identifier].href;
+      setMenuItemsStyles();
+    }
+
+    function reloadCurrentSco() {
+      runSco(current_item_identifier);
+    }
+
+    function runFirstSco() {
+      runSco(first_item_identifier);
+    }
+
+    function runNextSco() {
+      runSco(items_by_order[current_item_order+1].identifier);
+    }
+
+    function runPrevSco() {
+      if (current_item_order <= 0) {
+        runSco(items_by_order[current_item_order].identifier);
+      } else {
+        runSco(items_by_order[current_item_order-1].identifier);
+      }
+    }
+
+    function setMenuItemsStyles() {
+      $(".menu-item").removeClass("active-item");
+      $("#item-" + current_item_identifier).addClass("active-item");
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading" style="height: 57px; border-bottom: 1px solid rgba(0,0,0,.125);">
+        <a href="https://www.finecreator.com" class="lead text-dark" target="_blank">
+          <img src="assets/images/logo.png" class="" style="margin: -4px 8px 0 -4px" height="32" width="32" alt="">
+          <small class="text-muted" style="font-size: 70%;">Created in FineCreator</small>
+        </a>
+      </div>
+      <div class="list-group list-group-flush">
+        <!--
+        <a href="#" identifier="" id="" class="list-group-item list-group-item-action menu-item bg-light active-item">Dashboard</a>
+        -->
+        <a href="#" identifier="item_9569" id="item-item_9569" class="list-group-item list-group-item-action menu-item bg-light">Základy programovacieho jazyka Python</a>
+<a href="#" identifier="item_9566" id="item-item_9566" class="list-group-item list-group-item-action menu-item bg-light">1.1 Názvy premenných</a>
+<a href="#" identifier="item_9568" id="item-item_9568" class="list-group-item list-group-item-action menu-item bg-light">1.2 Hodnoty Premenných</a>
+<a href="#" identifier="item_9570" id="item-item_9570" class="list-group-item list-group-item-action menu-item bg-light">1.3 Konzola</a>
+<a href="#" identifier="item_9571" id="item-item_9571" class="list-group-item list-group-item-action menu-item bg-light">2.1 Aktualizácia premenných</a>
+<a href="#" identifier="item_9572" id="item-item_9572" class="list-group-item list-group-item-action menu-item bg-light">2.2. Výrazy</a>
+<a href="#" identifier="item_9573" id="item-item_9573" class="list-group-item list-group-item-action menu-item bg-light">2.3. Čísla</a>
+<a href="#" identifier="item_9575" id="item-item_9575" class="list-group-item list-group-item-action menu-item bg-light">3.1 True a False hodnoty</a>
+<a href="#" identifier="item_9576" id="item-item_9576" class="list-group-item list-group-item-action menu-item bg-light">3.2 Negácia hodnôt</a>
+<a href="#" identifier="item_9577" id="item-item_9577" class="list-group-item list-group-item-action menu-item bg-light">4.1 Operátor rovná sa</a>
+<a href="#" identifier="item_9578" id="item-item_9578" class="list-group-item list-group-item-action menu-item bg-light">4.2 Operátor nerovná sa</a>
+<a href="#" identifier="item_9579" id="item-item_9579" class="list-group-item list-group-item-action menu-item bg-light">5 Formátovanie stringu</a>
+<a href="#" identifier="item_9580" id="item-item_9580" class="list-group-item list-group-item-action menu-item bg-light">6 Test</a>
+
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" style="height: 57px;">
+        <button class="btn btn-default" id="menu-toggle">
+          <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+        </button>
+
+        <div class="lead mr-auto ml-3 mt-2 mt-lg-0">
+          Základy programovacieho jazyka Python
+        </div>
+      </nav>
+
+      <div id="content-div-wrapper">
+        <iframe name="sco-content" id="sco-content" width="100%" height="100%" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    runFirstSco();
+
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+
+    $(".menu-item").click(function(e) {
+      e.preventDefault();
+      runSco($(this).attr('identifier'));
+    });
+
+    $(document).ready(function () {
+      window.titles_width = $('#titles').width() + 30;
+      resizeDiv();
+      // runFirstSco();
+      if (isMobileSafari()) {
+        $("#content-div-wrapper").css("overflow", "scroll");
+      }
+    });
+
+    window.onresize = function (event) {
+      resizeDiv();
+    };
+
+    function resizeDiv() {
+      vpw = $(window).width();
+      vph = $(window).height() - 51;
+      tlm = $("#top-right-menu").width();
+      maxTitlesWidth = vpw - (tlm + 270);
+      $('#content-div-wrapper').css({'height': vph + 'px'});
+    }
+  </script>
+
+</body>
+
+</html>
